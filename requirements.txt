@@ -1,0 +1,9 @@
+requests~=2.30.0
+python-dotenv~=1.0.0
+fastapi~=0.104.1
+amqplib~=0.6.1
+pymongo~=4.6.0
+loguru~=0.7.2
+fastapi-utils~=0.2.1
+uvicorn~=0.24.0
+git+git://github.com/quesurifn/ipwhois.git
