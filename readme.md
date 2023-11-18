@@ -7,3 +7,20 @@
 </object>
 
 # To run 
+
+- Install the dependencies
+
+- Run MongoDB and Rabbit MQ locally
+
+- Wait until 12am system time
+
+- The job will kick off to download all allocated IP blocks via the 5 RIRs.
+
+- Log into the Rabbit MQ panel to see the queue fill up with over 100k ip blocks
+
+- Run the consumer with Python `python consumer/consumer.py` consumer will start, download the IP owner's information (company) for each allocated block
+ and save to MongoDB
+
+
+
+

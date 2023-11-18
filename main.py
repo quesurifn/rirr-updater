@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from logger.logger import init_logging
 from fastapi_utils.tasks import repeat_every
 from jobs.download import download
+from consumer.consumer import consumer
 from mongo import mongo
 
 app = FastAPI()
